@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+
+<html>
+<head> 
+<title>Movie Critics Website</title>
+    <meta charset="UTF-8">
+    <meta name= "discription" content="Movie Reviews">
+    <meta name="keywords" content= "movies,review,netflix,hulu">
+    <meta name="author" content="Trey Sutter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style> 
+	body {
+  background-color: lightgrey;
+}
+.p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style the header */
+.header {
+  background-color: lightgrey;
+  padding: 1px;
+  text-align: center;
+  font-family: "Open Sans Condensed", light;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+img {
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+}
+
+@font-face {
+font-family: myfirstfont;
+src:url(fonts/BlackSignature_PERSONAL_USE_ONLY.otf);
+}
+h1{
+font-family: myfirstfont;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 100px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 10px;
+}
+</style>
+
+</head>
+<div class="header" class="myfirstfont">
+
+ <h1>Movie Critics</h1> 
+ 
+   <a href="#"><img src="images/MovieCriticsLogo.jpg" width="125" height="125" alt="Home Logo" ></a>
+ </div>
+ 
+<body>
+<div class="topnav">
+  <a href="Layout2.html">Horror Movies!</a>
+  <a href="Layout3.html">Comedy Movies!</a>
+  <a href="Layout4.html">Contact Us!</a>
+</div>
+
+
+
+
+    <h2>New & Upcoming Movies</h2>
+	<div class="grid-container">
+  <div class="item1"><img src="images/OIP.jpg" width="155" height="190"></div>
+  <div class="item2"><img src="images/OIP.jpg" width="155" height="190"></div>
+  <div class="item3"><img src="images/OIP.jpg" width="155" height="190"></div>  
+
+  </div>
+    <h3>Horror Movies</h3>
+    
+    <p class="p1">Check out what were saing about these spooky movies!</p>
+    
+    <h4>Comedy Movies</h4>
+    
+    <p class="p1"> what movies should we watch next</p>
+
+	
+    
+    <h5>Movies rated 8+</h5>
+    <h5>what would you rate this?</h5>
+    
+    <h6>Merch!!</h6>
+    
+    <p class="p1" style="color: red;"> contact us at the bottom of the page!</p> <br>
+
+   
+    
+    <p class="p1"> Mission Statement. 
+    we are baced out of Minnesota and love watching and reviewing movies Luke,Trey and Bailey formerly 
+    known as the thee musketeers now known as the Movie Critics! This website is modeled after Rotten Tomatoes. 
+	We have always been a big fans of rotten tomatoes and love the tomatometer.  We think its really neat and its a good way
+    to easily tell if a movie was good or bad.  Our goal of this webpage is to give our honest reviews on movies and let 
+    people of all ages or anyone seeking more knowledge on the art of movies get a great review on any movie they are looking to watch.</p>
+	
+	<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</body>
+</html>
